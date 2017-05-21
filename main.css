@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.always {
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  padding: 0px 10%;
+  height: 150px;
+}
+
+ul {
+  margin: 0 auto;
+  padding: 20px 0;
+  border-bottom-style: solid;
+  border-bottom-color: lightblue;
+  text-align: center;
+}
+
+.sample {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.sample a {
+  display: block;
+  border: 2px solid lightblue;
+  border-radius: 10px;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 800;
+  color: rgba(0,0,0,0.8);
+}
+
+.sample a:hover {
+  background: rgba(0,0,0,.1);
+  transition: background .4s ease;
+}
+
+.hero {
+  margin-top: 250px;
+  margin-bottom: 50px;
+  height: 200px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-family: monospace;
+  font-size: 4rem;
+}
+
+.hero h2 {
+  font-family: sans-serif;
+  visibility: hidden;
+  animation-delay: 1s;
+}
+
+.fade-in {
+  animation: fadeIn ease 5s forwards;
+  -webkit-animation: fadeIn ease 5s forwards;
+  -moz-animation: fadeIn ease 5s forwards;
+  -o-animation: fadeIn ease 5s forwards;
+  -ms-animation: fadeIn ease 5s forwards;
+}
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    visibility: visible;
+    opacity:1;
+  }
+}
