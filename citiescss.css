@@ -1,0 +1,208 @@
+/* * {
+	border: 2px solid rgba(0,0,0,0.5);
+} */
+
+/* body { */
+	/* box-sizing: border-box; */
+	/* border: 4px solid blue; */
+/* } */
+
+/* html { */
+	/* box-sizing: border-box; */
+	/* border: 4px solid pink; */
+/* } */
+
+
+html, body {
+	margin: 0;
+	padding: 0 0px;
+  background-color: slategray;
+}
+
+nav {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: -20px;
+	width: 100%;
+	/* border-color: red; */
+	height: 80px;
+	background-color: slategray;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	text-align: center;
+}
+
+nav li {
+	font-size: 30px;
+	font-family: garamond;
+	text-align: center;
+	/* line-height: 90px; */
+	margin: 20px 20px;
+	display: inline-block;
+	height: 2rem;
+}
+
+.active {
+	background-color: rgba(0,0,0,.8);
+	border-radius: 8px;
+	color: white;
+	font-weight: 400;
+}
+
+li a {
+	padding: 4px;
+	text-decoration: none;
+	color: inherit;
+}
+
+li a:hover {
+	color: white;
+	background-color: rgba(0,0,0,.5);
+	transition: background ease .8s;
+	transition: color ease .4s;
+	border-radius: 8px;
+}
+
+.main {
+  position: relative;
+  /* border: 1px solid red; */
+  top: -20px;
+  height: 800px;
+  width: 100%;
+  background: url("http://hdwallpaperia.com/wp-content/uploads/2014/01/New-York-Wallpaper-Iphone-Android.jpg") no-repeat center center;
+  /* background-size: cover; */
+/*   background-size: 100% 100%; */
+  text-align: center;
+}
+
+.content {
+	width: 100%;
+	position: absolute;
+	top: 20%;
+	text-align: center;
+}
+
+.main h1 {
+  font-family: sans-serif;
+  font-size: 80px;
+  color: #fff;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin: 0 0;
+}
+
+.main h2 {
+  position: relative;
+  top: 18rem;
+  margin: 0;
+  font-family: courier new;
+  font-size: 50px;
+  color: white;
+  background-color: rgba(173, 179, 188, .4);
+}
+
+.banner {
+  position: relative;
+  top:-20px;
+  width: 100%;
+  height: 8rem;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.cities {
+  background-color: slategray;
+  width: 100%;
+  overflow: hidden;
+}
+
+.city {
+  padding: 5% 0 5% 5%;
+  width: 100%;
+  /* border: 2px solid green; */
+  box-sizing: border-box;
+}
+
+.image {
+  width: 40%;
+  height: auto;
+  /* border: 2px solid red; */
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.city img {
+/*   object-fit: cover; */
+  width: 100%;
+  height: auto;
+}
+
+.info {
+  /* border: 1px solid yellow; */
+  display: inline-block;
+  width: 50%;
+  /* height: 400px; */
+  margin-left: 5%;
+  vertical-align: middle;
+  position: relative;
+}
+
+.info h1 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-family: cursive;
+}
+
+.info h2 {
+  text-align: center;
+}
+
+.info p {
+  margin-top: 5%;
+  padding: 0 10%;
+}
+
+.btn {
+	padding: 2% 4%;
+	text-align: center;
+	margin-top: 5%;
+}
+
+.btn a {
+	padding: 2% 4%;
+	border-radius: 5%;
+	border: 2px solid white;
+	text-decoration: none;
+	color: rgba(0,0,0,.7);
+	letter-spacing: .2rem;
+	font-weight: 800;
+	font-family: sans-serif;
+}
+
+.btn a:hover {
+	background: rgba(0,0,0,.1);
+	transition: background ease .8s;
+}
+
+hr {
+    border: 0;
+    height: 4px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+
+.bot {
+  position: relative;
+  margin-top: 10%;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* * { */
+	/* border: none !important; */
+/* } */
